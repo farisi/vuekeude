@@ -8,7 +8,10 @@
                         <div class="row">
                             <div class="card-title col-lg"></div>
                             <div class="card-action col-lg-1">
-                                <a class="btn btn-circle text-primary" @click="isOpen=true"><i class='fa fa-plus'></i></a>
+                                <a class="btn btn-circle text-primary" @click="isOpen=!isOpen">
+                                    <i class='fa fa-plus' v-if="!isOpen"></i>
+                                    <i class="fa fa-arrow-right" v-if="isOpen"></i>
+                                </a>
                             </div>
                         </div>
                         <UserTable></UserTable>
