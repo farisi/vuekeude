@@ -8,20 +8,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent" >
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="/" class="nav-link" ><i class="fa fa-home"></i></a>
+            <router-link to="/" class="nav-link" ><i class="fa fa-home"></i></router-link>
           </li>
-          <li class="nav-item" ><a href="/products" class="nav-link"> Akend </a></li>
-          <li class="nav-item" route=""><a href="/categories" class="nav-link" > Akend R
-            </a></li>
+          <li class="nav-item" >
+            <router-link to="/products" class="nav-link"> Akend </router-link>
+          </li>
+          <li class="nav-item" route="">
+            <router-link to="/categories" class="nav-link" > Akend R
+            </router-link>
+          </li>
           <li class="nav-item">
             <!-- Navbar dropdown -->
             <div class="dropdown nav-item " :class="{show:dropdown1}">
               <a type="button" class="dropdown-toggle nav-link" aria-expanded="false"
                 aria-haspopup="true" data-trigger="" @click="test">PKB Header</a>
                 <div class="dropdown-menu dropdown-menu-right"  :class="{show:dropdown1}" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/users">Pkb Header</a>
-                  <a class="dropdown-item" href="/posts">Posts</a>
-                  <a class="dropdown-item" href="/authors">Author</a>
+                  <router-link class="dropdown-item" to="/users">Pkb Header</router-link>
+                  <router-link class="dropdown-item" to="/posts">Posts</router-link>
+                  <router-link class="dropdown-item" to="/authors">Author</router-link>
                 </div>
             </div>
           </li>
