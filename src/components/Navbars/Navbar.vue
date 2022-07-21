@@ -20,6 +20,8 @@
                 aria-haspopup="true" data-trigger="" @click="test">PKB Header</a>
                 <div class="dropdown-menu dropdown-menu-right"  :class="{show:dropdown1}" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="/users">Pkb Header</a>
+                  <a class="dropdown-item" href="/posts">Posts</a>
+                  <a class="dropdown-item" href="/authors">Author</a>
                 </div>
             </div>
           </li>
@@ -27,7 +29,7 @@
         <form class="d-flex input-group w-auto"><input type="search" class="form-control" placeholder="Type query"
             aria-label="Search"><button type="button" role="button" class="btn btn-outline-primary ripple-surface">
             Search </button></form>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-4">
           <li class="nav-item">
             <!-- Navbar dropdown -->
             <div class="dropdown nav-item" :class="{show:userDropdonw}">

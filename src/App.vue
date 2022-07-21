@@ -8,7 +8,7 @@ import Navbar from './components/Navbars/Navbar.vue'
 <template>
 <Navbar></Navbar>
 <div class="container container-fluid">
-  <router-view></router-view>
+  <router-view class="py-4"></router-view>
 </div>
 </template>
 

@@ -1,6 +1,5 @@
 <template>
     <form @submit.prevent="submitForm" >
-
         <div class="form-group row">
             <label class="form-label col-lg-3 offset-lg-1">Nama Lengkap</label>
             <div class="col-lg">
@@ -31,24 +30,21 @@ import {ref} from 'vue'
 import { userTableStore } from '../../stores/userTableStore';
 export default {
     setup(){
+        const userTbStore = userTableStore()
         const username = ref("")
         const name=ref("")
         const email=ref("")
-        
-        const userTbStore = userTableStore()
-        const submitForm= ()=>{
-            userTableStore.insertUserTableData({name:name.value,email:email.value,username:username.value})
-            name.value="";
-            email.value="";
-            username.value="";
-        }
         return {
-            submitForm,
             userTbStore,
             username,
             name,
             email
         }
-    }
+    },
+    methods: {
+        submitForm(){
+            alert('test');
+        }
+    },
 }
 </script>

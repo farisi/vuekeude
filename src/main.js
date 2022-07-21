@@ -25,6 +25,20 @@ const routes = [
         path:'/categories',
         name:"categories",
         component:()=>import('./pages/Category.vue')
+    },
+    {
+        path:'/posts',
+        name:'posts',
+        component:()=>import('./pages/posts/PostsView.vue')
+    },
+    {
+        path:'/posts/:id',
+        name:'post',component:()=>import('./pages/posts/PostView.vue')
+    },
+    {
+        path:'/authors',
+        name:'authors',
+        component:()=>import('./pages/authors/AuthorView.vue')
     }
 ]
 

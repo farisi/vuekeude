@@ -1,0 +1,673 @@
+{
+    "draw": 3,
+    "recordsTotal": 64,
+    "recordsFiltered": 32,
+    "data": [
+        {
+            "id": 57,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "09-Sep-2020",
+            "volume": "500.00",
+            "city_id": "KAB. ACEH BARAT",
+            "fuel_type": "Premium",
+            "amount": "7,500.00",
+            "sector_id": "PERTAMBANGAN",
+            "created_at": "2020-09-09 02:08:06",
+            "updated_at": "2020-09-09 02:08:06",
+            "total_amount": "3,750,000.00",
+            "no": null,
+            "pajak": "168,750.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/57\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/57 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        },
+        {
+            "id": 62,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "02-Sep-2020",
+            "volume": "500.00",
+            "city_id": "KAB. ACEH BARAT",
+            "fuel_type": "Premium",
+            "amount": "7,500.00",
+            "sector_id": "PERTAMBANGAN",
+            "created_at": "2020-09-15 07:08:10",
+            "updated_at": "2020-09-15 07:08:10",
+            "total_amount": "3,750,000.00",
+            "no": null,
+            "pajak": "168,750.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/62\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/62 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        },
+        {
+            "id": 56,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "29-Aug-2020",
+            "volume": "2,000.00",
+            "city_id": "KAB. ACEH BARAT",
+            "fuel_type": "Premium",
+            "amount": "7,600.00",
+            "sector_id": "PERTAMBANGAN",
+            "created_at": "2020-08-29 04:03:55",
+            "updated_at": "2020-08-29 04:03:55",
+            "total_amount": "15,200,000.00",
+            "no": null,
+            "pajak": "684,000.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/56\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/56 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        },
+        {
+            "id": 64,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "01-Jul-2020",
+            "volume": "600.00",
+            "city_id": "KAB. ACEH BARAT",
+            "fuel_type": "Premium",
+            "amount": "7,600.00",
+            "sector_id": "PERTAMBANGAN",
+            "created_at": "2020-09-23 08:25:48",
+            "updated_at": "2020-09-23 08:25:48",
+            "total_amount": "4,560,000.00",
+            "no": null,
+            "pajak": "205,200.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/64\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/64 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        },
+        {
+            "id": 63,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "16-Apr-2020",
+            "volume": "500.00",
+            "city_id": "KAB. ACEH TAMIANG",
+            "fuel_type": "Solar",
+            "amount": "5,600.00",
+            "sector_id": "PERKEBUNAN",
+            "created_at": "2020-09-16 06:40:25",
+            "updated_at": "2020-09-16 06:40:25",
+            "total_amount": "2,800,000.00",
+            "no": null,
+            "pajak": "126,000.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/63\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/63 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        },
+        {
+            "id": 58,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "09-Apr-2020",
+            "volume": "600.00",
+            "city_id": "KAB. ACEH BARAT",
+            "fuel_type": "Premium",
+            "amount": "7,500.00",
+            "sector_id": "PERTAMBANGAN",
+            "created_at": "2020-09-09 02:08:42",
+            "updated_at": "2020-09-09 02:08:42",
+            "total_amount": "4,500,000.00",
+            "no": null,
+            "pajak": "202,500.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/58\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/58 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        },
+        {
+            "id": 59,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "09-Apr-2020",
+            "volume": "500.00",
+            "city_id": "KAB. ACEH BESAR",
+            "fuel_type": "Premium",
+            "amount": "7,500.00",
+            "sector_id": "PERTAMBANGAN",
+            "created_at": "2020-09-09 02:09:10",
+            "updated_at": "2020-09-09 02:09:10",
+            "total_amount": "3,750,000.00",
+            "no": null,
+            "pajak": "168,750.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/59\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/59 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        },
+        {
+            "id": 61,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "09-Apr-2020",
+            "volume": "500.00",
+            "city_id": "KAB. ACEH SELATAN",
+            "fuel_type": "Premium",
+            "amount": "7,500.00",
+            "sector_id": "PERTAMBANGAN",
+            "created_at": "2020-09-09 02:10:13",
+            "updated_at": "2020-09-09 02:10:13",
+            "total_amount": "3,750,000.00",
+            "no": null,
+            "pajak": "168,750.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/61\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/61 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        },
+        {
+            "id": 60,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "04-Apr-2020",
+            "volume": "300.00",
+            "city_id": "KAB. ACEH JAYA",
+            "fuel_type": "Premium",
+            "amount": "7,500.00",
+            "sector_id": "PERTAMBANGAN",
+            "created_at": "2020-09-09 02:09:42",
+            "updated_at": "2020-09-09 02:09:42",
+            "total_amount": "2,250,000.00",
+            "no": null,
+            "pajak": "101,250.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/60\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/60 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        },
+        {
+            "id": 46,
+            "wapu_id": "PT. PERTAMINA(Persero) UPMS 1 MEDAN",
+            "distribution_at": "20-Mar-2020",
+            "volume": "600.00",
+            "city_id": "KAB. ACEH BARAT",
+            "fuel_type": "Solar",
+            "amount": "5,600.00",
+            "sector_id": "KEHUTANAN",
+            "created_at": "2020-08-05 09:11:58",
+            "updated_at": "2020-08-05 09:11:58",
+            "total_amount": "3,360,000.00",
+            "no": null,
+            "pajak": "151,200.00",
+            "action": "<a href='http:\/\/taxscollector.test\/transactions\/46\/edit' class='btn btn-outline-warning btn-sm'  ><i class='fa fa-edit text-warning'><\/i><\/a><a onclick='event.preventDefault(); $(this).parent().find(\"form\").submit();' href='#' class='btn btn-outline-danger btn-sm' ><i class='fa fa-trash text-danger'><\/i><\/a><form method='POST' action='http:\/\/taxscollector.test\/transactions\/46 ' onsubmit='return confirm(\"Anda yaking menghapus data ini ?\");'> <input type=\"hidden\" name=\"_method\" value=\"DELETE\"><input type=\"hidden\" name=\"_token\" value=\"MH9dMPvlZ9pUZuAc7xlZVFM66uEuUk0Jp01J3gvx\"><\/form>"
+        }
+    ],
+    "queries": [
+        {
+            "query": "select count(*) as aggregate from (select * from `transactions` where `wapu_id` = ? order by `distribution_at` desc) count_row_table",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.34"
+        },
+        {
+            "query": "select count(*) as aggregate from (select * from `transactions` where `wapu_id` = ? and year(distribution_at)=2020 order by `distribution_at` desc) count_row_table",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.34"
+        },
+        {
+            "query": "select * from `transactions` where `wapu_id` = ? and year(distribution_at)=2020 order by `distribution_at` desc limit 10 offset 0",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.42"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.42"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.33"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.31"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "1.11"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "57"
+            ],
+            "time": "1.87"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.33"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.3"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.31"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.31"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "62"
+            ],
+            "time": "0.34"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.3"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.29"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.24"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.23"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "56"
+            ],
+            "time": "0.26"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.23"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.22"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.21"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.21"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "64"
+            ],
+            "time": "0.32"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.21"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "2"
+            ],
+            "time": "0.29"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "3"
+            ],
+            "time": "0.27"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.22"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "63"
+            ],
+            "time": "0.26"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.24"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.22"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.19"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.24"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "58"
+            ],
+            "time": "0.26"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.23"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.22"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.19"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.21"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "59"
+            ],
+            "time": "0.26"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.23"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.21"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.16"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.16"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "61"
+            ],
+            "time": "0.21"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.18"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.16"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.16"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.16"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "60"
+            ],
+            "time": "0.21"
+        },
+        {
+            "query": "select * from `wapus` where `wapus`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.17"
+        },
+        {
+            "query": "select * from `fuel_types` where `fuel_types`.`id` = ? limit 1",
+            "bindings": [
+                "2"
+            ],
+            "time": "0.16"
+        },
+        {
+            "query": "select * from `sectors` where `sectors`.`id` = ? limit 1",
+            "bindings": [
+                "2"
+            ],
+            "time": "0.16"
+        },
+        {
+            "query": "select * from `global_settings` where `global_settings`.`id` = ? limit 1",
+            "bindings": [
+                "1"
+            ],
+            "time": "0.16"
+        },
+        {
+            "query": "select `transfers`.*, `distribution_transfer`.`transaction_id` as `pivot_transaction_id`, `distribution_transfer`.`transfer_id` as `pivot_transfer_id` from `transfers` inner join `distribution_transfer` on `transfers`.`id` = `distribution_transfer`.`transfer_id` where `distribution_transfer`.`transaction_id` = ?",
+            "bindings": [
+                "46"
+            ],
+            "time": "0.31"
+        }
+    ],
+    "input": {
+        "draw": "3",
+        "columns": [
+            {
+                "data": "no",
+                "name": "no",
+                "searchable": "true",
+                "orderable": "false",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "wapu_id",
+                "name": "wapu_id",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "city_id",
+                "name": "city_id",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "sector_id",
+                "name": "sector",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "distribution_at",
+                "name": "distribution_at",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "fuel_type",
+                "name": "fuel_type",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "volume",
+                "name": "volume",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "amount",
+                "name": "amount",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "total_amount",
+                "name": "total_amount",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "pajak",
+                "name": "pajak",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            },
+            {
+                "data": "action",
+                "name": "action",
+                "searchable": "true",
+                "orderable": "true",
+                "search": {
+                    "value": null,
+                    "regex": "false"
+                }
+            }
+        ],
+        "order": [
+            {
+                "column": "1",
+                "dir": "ASC"
+            }
+        ],
+        "start": "0",
+        "length": "10",
+        "search": {
+            "value": null,
+            "regex": "false"
+        },
+        "year": "2020",
+        "month": "-1",
+        "city": "-1",
+        "sector": "-1",
+        "fuel": "-1",
+        "_": "1658301069079"
+    }
+}

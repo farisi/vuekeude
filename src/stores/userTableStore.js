@@ -23,7 +23,6 @@ export const userTableStore = defineStore({
   ],
   errors:[]
 }),
-  
   getters: {
     userTableCount(){
         return this.users.length
@@ -31,7 +30,9 @@ export const userTableStore = defineStore({
   },
   actions:{
     insertUserTableData(user) {
-        this.users.push(user);
+      console.log(user);
+      this.users.push(user);
+      showTooltip(this.users);
     }
   }
 })
