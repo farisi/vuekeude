@@ -1,0 +1,1 @@
+{"version":"0.0.0","name":"vuekeude","dependencies":{"@popperjs/core":{"version":"2.11.5"},"bootstrap":{"version":"5.2.0"},"pinia":{"version":"2.0.0-rc.10"},"vue-router":{"version":"4.1.2"},"vue":{"version":"3.2.37"}}}

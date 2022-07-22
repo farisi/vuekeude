@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-sm" role="navigation" >
     <div class="container-fluid">
-      <a class="navbar-brand" href="#navbarSupportedContent" role="button" aria-controls="navbarSupportedContent">Backoffice</a>
+      <router-link class="navbar-brand" to="" role="button" aria-controls="navbarSupportedContent">Backoffice</router-link>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         type="button" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
           class="fas fa-bars fa-1x"></i></button>
@@ -23,9 +23,9 @@
               <a type="button" class="dropdown-toggle nav-link" aria-expanded="false"
                 aria-haspopup="true" data-trigger="" @click="test">PKB Header</a>
                 <div class="dropdown-menu dropdown-menu-right"  :class="{show:dropdown1}" aria-labelledby="navbarDropdown">
-                  <router-link class="dropdown-item" to="/users">Pkb Header</router-link>
-                  <router-link class="dropdown-item" to="/posts">Posts</router-link>
-                  <router-link class="dropdown-item" to="/authors">Author</router-link>
+                  <router-link class="dropdown-item" @click="close" to="/users">Pkb Header</router-link>
+                  <router-link class="dropdown-item" @click="close" to="/posts">Posts</router-link>
+                  <router-link class="dropdown-item" @click="close" to="/authors">Author</router-link>
                 </div>
             </div>
           </li>
@@ -52,7 +52,7 @@
 </template>
 <script>
 
-import { ref } from 'vue';
+import { ref,onMounted,onBeforeUnmount } from 'vue';
 export default {
 
   setup() {
@@ -61,12 +61,21 @@ export default {
     const userDropdonw = ref(false);
     const test = ()=>dropdown1.value=!dropdown1.value;
     const rightDropdown = ()=>userDropdonw.value=!userDropdonw.value;
+    const close = ()=> dropdown1.value=false
+    
+    onMounted(()=>{
+    })
+
+    onBeforeUnmount(()=>{
+    })
+
     return {
       collapse1,
       dropdown1,
       userDropdonw,
       test,
-      rightDropdown
+      rightDropdown,
+      close
     }
   }
 };

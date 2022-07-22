@@ -3,7 +3,6 @@
   import { storeToRefs } from 'pinia'
   import { useAuthorStore } from '../../stores/author'
   import { usePostStore } from '../../stores/post'
-  import Post from './Post.vue'
 
   const route = useRoute() 
   const { getPostAuthor } = storeToRefs(useAuthorStore())
