@@ -1,5 +1,5 @@
 <template>
-    <form @submit.prevent="submitForm" >
+    <form @submit.prevent="submitForm({name:name,email:email,username:username})" >
         <div class="form-group row">
             <label class="form-label col-lg-3 offset-lg-1">Nama Lengkap</label>
             <div class="col-lg">
@@ -34,17 +34,25 @@ export default {
         const username = ref("")
         const name=ref("")
         const email=ref("")
+
+        function submitForm(user)
+        {
+            if(user.length ===0) {
+                return 
+            }
+          userTbStore.insertUserTableData(user);
+          username.value='';
+          name.value='';
+          email.value='';
+        }
+
         return {
             userTbStore,
             username,
             name,
-            email
+            email,
+            submitForm
         }
-    },
-    methods: {
-        submitForm(){
-            alert('test');
-        }
-    },
+    }
 }
 </script>

@@ -9,7 +9,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr v-for="(u,i) in userTbStore.users" :key="u.id">
+            <tr v-for="(u,i) in users" :key="u.id">
                 <td>{{i+1}}</td>
                 <td>{{u.name}}</td>
                 <td>{{u.email}}</td>
@@ -21,12 +21,14 @@
 
 <script>
 import { userTableStore } from '../../stores/userTableStore';
+import { storeToRefs } from 'pinia';
 
 export default {
     setup(){
-        const userTbStore = userTableStore()
+        const store = userTableStore()
+        const {users} = storeToRefs(store)
         return {
-            userTbStore
+            users
         }
     }
 }

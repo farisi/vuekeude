@@ -30,9 +30,7 @@ export const userTableStore = defineStore({
   },
   actions:{
     insertUserTableData(user) {
-      console.log(user);
       this.users.push(user);
-      showTooltip(this.users);
     }
   }
 })

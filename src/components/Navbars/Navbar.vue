@@ -1,27 +1,30 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-sm" role="navigation" >
     <div class="container-fluid">
-      <a class="navbar-brand" href="#navbarSupportedContent" role="button" aria-controls="navbarSupportedContent">Backoffice</a>
+      <router-link class="navbar-brand" to="" role="button" aria-controls="navbarSupportedContent">Backoffice</router-link>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         type="button" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
           class="fas fa-bars fa-1x"></i></button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent" >
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="/" class="nav-link" ><i class="fa fa-home"></i></a>
+            <router-link to="/" class="nav-link" ><i class="fa fa-home"></i></router-link>
           </li>
-          <li class="nav-item" ><a href="/products" class="nav-link"> Akend </a></li>
-          <li class="nav-item" route=""><a href="/categories" class="nav-link" > Akend R
-            </a></li>
+          <li class="nav-item" >
+            <router-link to="/products" class="nav-link"> Akend </router-link></li>
+          <li class="nav-item" route="">
+            <router-link to="/categories" class="nav-link" > Akend R
+            </router-link></li>
           <li class="nav-item">
             <!-- Navbar dropdown -->
             <div class="dropdown nav-item " :class="{show:dropdown1}">
               <a type="button" class="dropdown-toggle nav-link" aria-expanded="false"
                 aria-haspopup="true" data-trigger="" @click="test">PKB Header</a>
                 <div class="dropdown-menu dropdown-menu-right"  :class="{show:dropdown1}" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/users">Pkb Header</a>
-                  <a class="dropdown-item" href="/posts">Posts</a>
-                  <a class="dropdown-item" href="/authors">Author</a>
+                  <router-link class="dropdown-item" @click="close()" to="/users">Pkb Header</router-link>
+                  <router-link class="dropdown-item" @click="close()" to="/posts">Posts</router-link>
+                  <router-link class="dropdown-item" @click="close()" to="/authors">Author</router-link>
+                  <router-link class="dropdown-item" @click="close()" to="/todo">Author</router-link>
                 </div>
             </div>
           </li>
@@ -48,7 +51,7 @@
 </template>
 <script>
 
-import { ref } from 'vue';
+import { ref,onMounted,onBeforeUnmount } from 'vue';
 export default {
 
   setup() {
@@ -57,12 +60,21 @@ export default {
     const userDropdonw = ref(false);
     const test = ()=>dropdown1.value=!dropdown1.value;
     const rightDropdown = ()=>userDropdonw.value=!userDropdonw.value;
+    const close = ()=> dropdown1.value=false
+    
+    onMounted(()=>{
+    })
+
+    onBeforeUnmount(()=>{
+    })
+
     return {
       collapse1,
       dropdown1,
       userDropdonw,
       test,
-      rightDropdown
+      rightDropdown,
+      close
     }
   }
 };
