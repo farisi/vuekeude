@@ -11,10 +11,9 @@
             <router-link to="/" class="nav-link" ><i class="fa fa-home"></i></router-link>
           </li>
           <li class="nav-item" >
-            <router-link to="/products" class="nav-link"> Akend </router-link></li>
+            <router-link to="/products" class="nav-link">Produk</router-link></li>
           <li class="nav-item" route="">
-            <router-link to="/categories" class="nav-link" > Akend R
-            </router-link></li>
+            <router-link to="/categories" class="nav-link" >Kategori</router-link></li>
           <li class="nav-item">
             <!-- Navbar dropdown -->
             <div class="dropdown nav-item " :class="{show:dropdown1}">
@@ -26,7 +25,6 @@
                   <router-link class="dropdown-item" @click="close()" to="/authors">Author</router-link>
                   <router-link class="dropdown-item" @click="close()" to="/todo">Todo</router-link>
                   <router-link class="dropdown-item" @click="close()" to="/items">Item</router-link>
-                  <router-link class="dropdown-item" @click="close()" to="/categories">Kategori</router-link>
                 </div>
             </div>
           </li>
