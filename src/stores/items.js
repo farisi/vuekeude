@@ -17,7 +17,7 @@ export const useItemStore = defineStore({
             this.item = null
             this.loading = true
             try {
-              this.post = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
+              this.item = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
               .then((response) => response.json())
             } catch (error) {
               this.error = error
@@ -25,7 +25,7 @@ export const useItemStore = defineStore({
               this.loading = false
             }
         },
-        async fetchPosts() {
+        async fetchItems() {
             this.items = []
             this.loading = true
             try {

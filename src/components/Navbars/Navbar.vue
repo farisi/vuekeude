@@ -24,7 +24,9 @@
                   <router-link class="dropdown-item" @click="close()" to="/users">Pkb Header</router-link>
                   <router-link class="dropdown-item" @click="close()" to="/posts">Posts</router-link>
                   <router-link class="dropdown-item" @click="close()" to="/authors">Author</router-link>
-                  <router-link class="dropdown-item" @click="close()" to="/todo">Author</router-link>
+                  <router-link class="dropdown-item" @click="close()" to="/todo">Todo</router-link>
+                  <router-link class="dropdown-item" @click="close()" to="/items">Item</router-link>
+                  <router-link class="dropdown-item" @click="close()" to="/categories">Kategori</router-link>
                 </div>
             </div>
           </li>

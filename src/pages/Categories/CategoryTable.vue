@@ -1,4 +1,5 @@
 <template>
+{{categories}}
     <table class="table">
                 <thead>
                     <tr>
@@ -9,10 +10,10 @@
                 </thead>
                 <tbody>
                      <tr v-if="loading"><td colspan="3">Loading post...</td></tr> 
-                     <tr v-if="error"><td colspan="3">{{ error.message }}</td></tr> 
-                    <tr v-for="(item, i) in items" :key="item.id">
+                     <tr v-if="loading"><td colspan="3">{{ error.message }}</td></tr> 
+                    <tr v-for="(category, i) in categories" :key="item.id">
                         <td>{{i+1}}</td>
-                        <td>{{item.name}}</td>
+                        <td>{{category.name}}</td>
                         <td></td>
                     </tr>
                 </tbody>
@@ -21,11 +22,10 @@
 
 <script setup>
 import { storeToRefs } from 'pinia';
-import { useItemStore } from '../../stores/items';
-
-const {items, error,loading} = storeToRefs(useItemStore())
-const {fetchItems} = useItemStore();
-fetchItems()
+import { useCategoryStore } from '../../stores/category';
+    const {categories,error,loading} = storeToRefs(useCategoryStore());
+    const {fetchItems} = useCategoryStore();
+    fetchItems();
 </script>
 
 <style lang="scss" scoped>

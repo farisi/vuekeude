@@ -1,44 +1,40 @@
 <template>
     <div class="container-fluid">
-        <h1>Page Item</h1>
         <div class="row">
             <div class="col-lg">
-                   <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="card-title col-lg"></div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                            <div class="card-title col-lg"><h3>Kategori</h3></div>
                             <div class="card-action col-lg-1">
                                 <a class="btn btn-circle text-primary" @click="isOpen=!isOpen">
                                     <i class='fa fa-plus' v-if="!isOpen"></i>
                                     <i class="fa fa-arrow-right" v-if="isOpen"></i>
                                 </a>
                             </div>
-                        </div>
-                        <ItemTable></ItemTable>
                     </div>
+                    <CategoryTable></CategoryTable>
                 </div>
             </div>
-            <div class="col-lg-6" v-if="isOpen">
-                <ItemForm></ItemForm>
-            </div>
+        </div>
+        <div class="col-lg-6" v-if="isOpen">
+            <CategoryForm></CategoryForm>
+        </div>
         </div>
     </div>
 </template>
 
 <script>
-import ItemTable from './ItemTable.vue';
-import ItemForm from './ItemForm.vue';
-import { ref } from 'vue';
+import { ref } from 'vue'
+import CategoryTable from './CategoryTable.vue';
+import CategoryForm from './CategoryForm.vue';
 
 export default {
-    setup()
-    {
-        const isOpen=ref(false)
-        return {
-            isOpen
-        }
+    setup() {
+        const isOpen = ref(false);
+        return { isOpen };
     },
-    components: { ItemTable, ItemForm }
+    components: { CategoryTable, CategoryForm }
 }
 </script>
 
