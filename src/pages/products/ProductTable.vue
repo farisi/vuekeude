@@ -2,15 +2,14 @@
 import { useProductStore } from '../../stores/useProductStore';
 import { storeToRefs } from 'pinia';
 
-const {products,error,loading} = storeToRefs(useProductStore);
-const fetchProducts = useProductStore;
+const {products,error,loading} = storeToRefs(useProductStore());
+const {fetchProducts} = useProductStore();
 fetchProducts();
 </script>
 
 <template>
     <div class="card">
         <div class="card-body">
-            {{products}}
             <table class="table">
                 <thead>
                     <tr>
